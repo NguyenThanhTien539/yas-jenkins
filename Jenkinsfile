@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Hello') {
       steps {
-        echo 'Jenkins da doc duoc Jenkinsfile'
+        echo 'Jenkins Pipeline is running on an Ubuntu server!'
       }
     }
   }
