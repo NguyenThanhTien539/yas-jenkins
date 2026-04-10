@@ -1,5 +1,7 @@
 pipeline {
-  agent any
+  agent {
+    label 'ubuntu-server'
+  }
 
   stages {
     stage('Hello') {
